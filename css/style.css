@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.mainbox {
+    width: 100%;
+    height: 260px;
+    background-color: white;
+}
+
+.mainbox header {
+    width: 100%;
+    height: 68px;
+    background-color: #457B9D;
+    display: flex;
+    align-items: center;
+
+}
+
+.mainbox header .Logo {
+    width: 20%;
+    margin-left: 50px;
+
+}
+
+.mainbox header .Navi {
+    background-color: #457B9D;
+    padding-left: 400px;
+}
+
+.mainbox header .Navi ul {
+    display: flex;
+
+}
+
+.mainbox header .Navi ul li {
+    background-color: #457B9D;
+    list-style-type: none;
+
+
+}
+
+.mainbox header .Navi ul li a {
+    background-color: #457B9D;
+    color: #FAF9F9;
+    text-decoration: none;
+    padding: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+.mainbox section .box1 ul {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+
+}
+
+.mainbox section .box1 ul li {
+    background-color: #F1FAEE;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.mainbox section .box1 ul li a {
+    background-color: #F1FAEE;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.mainbox section .box2 {
+    width: 100%;
+    height: 690px;
+    background: rgba(0, 0, 0, 0.4);
+    background-image: url(/avic\ pics.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+background-position: center;
+
+
+}
+
+.mainbox section .box2 .box2a {
+    /* position: absolute; */
+    left: 456px;
+    top: 145px;
+    width: 928px;
+    height: 118px;
+    margin: auto;
+    padding-top: 330px;
+
+}
+
+.mainbox section .box2 .box2a p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 88px;
+    line-height: 59px;
+    text-align: center;
+    color: #F4F4F4;
+}
+
+.mainbox section .box2 .box2b {
+    /* position: absolute; */
+    width: 1206px;
+    height: 78px;
+    left: 54px;
+    top: 268px;
+    padding: 20px;
+    margin: auto;
+}
+
+.mainbox section .box2 .box2b p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 39px;
+    text-align: center;
+    color: #FFFFFF;
+}
